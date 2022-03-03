@@ -1,6 +1,6 @@
 import React from "react";
-// import Avatar from "../../assets/img/avatar.png";
-// import Avatar1 from "../../assets/img/chan-dung-edit.png";
+import Avatar from "../../assets/img/avatar.png";
+import Avatar1 from "../../assets/img/chan-dung-edit.png";
 import Avatar2 from "../../assets/img/full-nguoi-edit.webp";
 import "./style.css";
 const Greeting = () => {
@@ -19,7 +19,7 @@ const Greeting = () => {
         </ul>
       </div>
       <div className="left-column">
-        <img className="avatar" src={Avatar2} alt="Avatar" />
+        <img className="avatar" src={Avatar2} alt="Avatar2" />
         <h5>Dr Eman Zaki</h5>
         <p>{" Medical Radiology "}</p>
       </div>
@@ -30,14 +30,11 @@ const Greeting = () => {
             <div className="corner corner-tr"></div>
             <h3>What I Do?</h3>
             <p style={{ fontSize: "16px" }}>
-              senior-level Medical Radiology, interested in abdominal imaging,
-              ultrasound and computed tomography , specializes in diagnosing and
-              treating disease and injury, using medical imaging techniques such
-              as x-rays, computed tomography (CT), magnetic resonance imaging
-              (MRI), nuclear medicine, positron emission tomography (PET),
-              fusion imaging, and ultrasound.
+              chef-level Medical Radiology, interested in abdominal imaging,
+              ultrasound and computed tomography.
             </p>
-            {/* <img className="avatar" src={Avatar} alt="Avatar" /> */}
+            <img className="avatar" src={Avatar} alt="Avatar" />
+            <img className="avatar" src={Avatar1} alt="Avatar1" />
 
             <div className="corner corner-br"></div>
             <div className="corner corner-bl"></div>

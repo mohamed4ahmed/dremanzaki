@@ -35,8 +35,17 @@ const About = ({ languages, socials, tools }) => {
             <span role="img" aria-label="education">
               📕
             </span>{" "}
-            Education: BSc Masters and PhD Faculty of Human Medicine, Department
-            of Radiology, Mansoura University
+            Education: BSc Masters and PhD degree in Imaging , Faculty of Human
+            Medicine Department Radiology, Mansoura University
+          </p>
+          <p>
+            <span role="img" aria-label="experience">
+              📕
+            </span>{" "}
+            Experience: Specializes in diagnosing and treating disease and
+            injury, using medical imaging techniques such as x-rays, computed
+            tomography (CT), magnetic resonance imaging (MRI), nuclear medicine,
+            positron emission tomography (PET), fusion imaging, and ultrasound
           </p>
           <hr />
         </div>
