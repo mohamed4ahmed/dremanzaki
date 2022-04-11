@@ -1,35 +1,19 @@
 {
   "files": {
-    "main.css": "/dremanzaki/static/css/main.d46646a5.css",
-    "main.js": "/dremanzaki/static/js/main.6377001e.js",
-    "static/js/787.ad21b187.chunk.js": "/dremanzaki/static/js/787.ad21b187.chunk.js",
-    "static/media/avatar.png": "/dremanzaki/static/media/avatar.82b512ed38bd5892b58c.png",
-    "static/media/todosImage.jpg": "/dremanzaki/static/media/todosImage.0e374bdaab934dae523f.jpg",
-    "static/media/chan-dung-edit.png": "/dremanzaki/static/media/chan-dung-edit.19bd82594e75ed2bdfba.png",
-    "static/media/avatar.webp": "/dremanzaki/static/media/avatar.2e204a8e4e1f255917e5.webp",
-    "static/media/full-nguoi-edit.webp": "/dremanzaki/static/media/full-nguoi-edit.9efbcf322369bf554655.webp",
-    "static/media/smartBeamImage.jpg": "/dremanzaki/static/media/smartBeamImage.526433eb2df58b1510dd.jpg",
-    "static/media/TempsImage.jpg": "/dremanzaki/static/media/TempsImage.8c9e2bf81a17942be39e.jpg",
-    "static/media/movieImage.jpg": "/dremanzaki/static/media/movieImage.f58e956d052790650575.jpg",
-    "static/media/crochetArtImage.jpg": "/dremanzaki/static/media/crochetArtImage.12ecd88991bed42943da.jpg",
-    "static/media/troyCoffeImage.jpg": "/dremanzaki/static/media/troyCoffeImage.d01e0c20dd3f3bee6d1f.jpg",
-    "static/media/cowenterImage.jpg": "/dremanzaki/static/media/cowenterImage.c9ee6bcb19711cb256f1.jpg",
-    "static/media/recipeImage.jpg": "/dremanzaki/static/media/recipeImage.6327c9dae4c8bf72fcc7.jpg",
-    "static/media/todoappImage.jpg": "/dremanzaki/static/media/todoappImage.7f39b6d49e032d2b43da.jpg",
-    "static/media/safkaImage.jpg": "/dremanzaki/static/media/safkaImage.82dd8a8de23cd21a7ac9.jpg",
-    "static/media/no-image.jpg": "/dremanzaki/static/media/no-image.d09e503817275d6b9eb4.jpg",
-    "static/media/weatherAppImage.jpg": "/dremanzaki/static/media/weatherAppImage.6298be616b1d7d13423d.jpg",
-    "index.html": "/dremanzaki/index.html",
-    "static/media/slick.svg": "/dremanzaki/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/dremanzaki/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/dremanzaki/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/dremanzaki/static/media/slick.295183786cd8a1389865.woff",
-    "main.d46646a5.css.map": "/dremanzaki/static/css/main.d46646a5.css.map",
-    "main.6377001e.js.map": "/dremanzaki/static/js/main.6377001e.js.map",
-    "787.ad21b187.chunk.js.map": "/dremanzaki/static/js/787.ad21b187.chunk.js.map"
+    "main.css": "/static/css/main.62101bf3.css",
+    "main.js": "/static/js/main.e14b3db7.js",
+    "static/js/787.ad21b187.chunk.js": "/static/js/787.ad21b187.chunk.js",
+    "static/media/avatar.webp": "/static/media/avatar.0e374bdaab934dae523f.webp",
+    "static/media/full-nguoi-edit.webp": "/static/media/full-nguoi-edit.9efbcf322369bf554655.webp",
+    "static/media/chan-dung-edit.png": "/static/media/chan-dung-edit.526433eb2df58b1510dd.png",
+    "static/media/avatar.png": "/static/media/avatar.d01e0c20dd3f3bee6d1f.png",
+    "index.html": "/index.html",
+    "main.62101bf3.css.map": "/static/css/main.62101bf3.css.map",
+    "main.e14b3db7.js.map": "/static/js/main.e14b3db7.js.map",
+    "787.ad21b187.chunk.js.map": "/static/js/787.ad21b187.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d46646a5.css",
-    "static/js/main.6377001e.js"
+    "static/css/main.62101bf3.css",
+    "static/js/main.e14b3db7.js"
   ]
 }
