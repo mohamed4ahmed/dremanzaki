@@ -30,7 +30,7 @@ const Greeting = () => {
             <div className="corner corner-tr"></div>
             <h3>What I Do?</h3>
             <p style={{ fontSize: "16px" }}>
-              chef-level Medical Radiology, interested in abdominal imaging,
+               Medical Radiology, interested in abdominal imaging,
               ultrasound and computed tomography.
             </p>
             <img className="avatar" src={Avatar} alt="Avatar" />

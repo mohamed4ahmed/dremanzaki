@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-const About = ({ languages, socials, tools }) => {
+const About = ({ socials }) => {
   return (
     <div className="about-wrapper">
       <div className="about-left">
@@ -19,12 +19,12 @@ const About = ({ languages, socials, tools }) => {
             </span>{" "}
             Lives: Gadah city , Saudi Arabia
           </p>
-          <p>
+          {/* <p>
             <span role="img" aria-label="email">
               📨
             </span>{" "}
             Email: youyaahmed1731993@gmail.com
-          </p>
+          </p> */}
           <p>
             <span role="img" aria-label="languages">
               🎓
@@ -74,7 +74,7 @@ const About = ({ languages, socials, tools }) => {
         </div>
       </div>
 
-      <div className="about-right">
+      {/* <div className="about-right">
         <h4>Top Expertise</h4>
         <p>
           Medical-Radiology Doctor with primary focus on Radiology and Imaging:{" "}
@@ -112,7 +112,7 @@ const About = ({ languages, socials, tools }) => {
             })}
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

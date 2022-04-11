@@ -2,11 +2,12 @@ import React from "react";
 import "./style.css";
 import Intro from "../intro";
 import About from "../about";
-import Posts from "../posts";
+import Maps from "../maps";
+// import Posts from "../posts";
 // import Contact from "../contact";
 import Greeting from "../greeting";
 
-const Homepage = ({ languages, socials, tools, posts }) => {
+const Homepage = ({ socials }) => {
   return (
     <React.Fragment>
       <section className="s1">
@@ -15,16 +16,25 @@ const Homepage = ({ languages, socials, tools, posts }) => {
           <Intro />
         </div>
       </section>
+
       <section className="s2">
         <div className="main-container">
-          <About socials={socials} languages={languages} tools={tools} />
+          <About socials={socials} />
         </div>
       </section>
-      <section className="s1">
+
+      {/* <section className="s1">
         <div className="main-container">
           <Posts posts={posts} />
         </div>
+      </section> */}
+
+      <section className="s1">
+        <div className="main-container">
+          <Maps />
+        </div>
       </section>
+
       <section className="s2">
         <div className="main-container">
           <Greeting />

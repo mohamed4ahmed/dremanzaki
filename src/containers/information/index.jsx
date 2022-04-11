@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import avatar from "../../assets/img/chan-dung-edit.png";
+import avatar from "../../assets/img/avatar.png";
 import avatarIcon from "../../assets/img/avatar.webp";
 import "./styles.css";
 import { Link } from "react-router-dom";
@@ -58,18 +58,19 @@ const Information = () => {
 
             <div className="information">
               <img src={avatar} alt="avatar" />
-              <h2>DR - Eman Zaki </h2>
+              <h2>Dr - Eman Zaki </h2>
 
               <div className="social">
-                <Link to="/portfolio">
+                <Link to="/profile">
                   <div className="icon">
                     <img src={avatarIcon} alt="website" />
                   </div>
-                  <p>Portfolio</p>
+                  <p>Profile</p>
                   <div className=""></div>
                 </Link>
               </div>
-              <div className="social">
+
+              {/* <div className="social">
                 <a
                   rel="noopener noreferrer"
                   target="__blank"
@@ -84,29 +85,13 @@ const Information = () => {
                   <p>Résumé</p>
                   <div className=""></div>
                 </a>
-              </div>
-              {/* <div className="social">
-            <a
-              rel="noopener noreferrer"
-              target="__blank"
-              href="https://github.com/mohamed4ahmed"
-            >
-              <div className="icon">
-                <img
-                  src="https://img.icons8.com/fluent/48/000000/github.png"
-                  alt="github"
-                />
-              </div>
-              <p>Github</p>
-              <div className=""></div>
-            </a>
-          </div> */}
+              </div> */}
 
               <div className="social">
                 <a
                   rel="noopener noreferrer"
                   target="__blank"
-                  href="mailto:youyaahmed1731993@gmail.com"
+                  href="mailto:emanzakid@gmail.com"
                 >
                   <div className="icon">
                     <img
@@ -126,16 +111,16 @@ const Information = () => {
                   href="tel:+201017043714"
                 >
                   <div className="icon">
-                    <img
+                    {/* <img
                       src="https://img.icons8.com/color/48/000000/egypt-circular.png"
                       alt="phoneegy"
-                    />
+                    /> */}
                     <img
                       src="https://img.icons8.com/ios/50/000000/apple-phone.png"
-                      alt="phone"
+                      alt="phone-one"
                     />
                   </div>
-                  <p>Phone Number EGY</p>
+                  <p>Phone EGY</p>
                   <div className=""></div>
                 </a>
               </div>
@@ -147,21 +132,21 @@ const Information = () => {
                   href="tel:+966556286650"
                 >
                   <div className="icon">
-                    <img
+                    {/* <img
                       src="https://img.icons8.com/color/48/000000/saudi-arabia.png"
                       alt="phoneksa"
-                    />
+                    /> */}
                     <img
                       src="https://img.icons8.com/clouds/100/000000/apple-phone.png"
-                      alt="phonenum"
+                      alt="phone-two"
                     />
                   </div>
-                  <p>Phone Number KSA</p>
+                  <p>Phone</p>
                   <div className=""></div>
                 </a>
               </div>
 
-              <div className="social">
+              {/* <div className="social">
                 <a
                   rel="noopener noreferrer"
                   target="__blank"
@@ -176,13 +161,13 @@ const Information = () => {
                   <p>Linkedin</p>
                   <div className=""></div>
                 </a>
-              </div>
+              </div> */}
 
               <div className="social">
                 <a
                   rel="noopener noreferrer"
                   target="__blank"
-                  href="https://www.facebook.com/eman.zaki.1610/"
+                  href="https://www.facebook.com/profile.php?id=eman.zaki.1610/"
                   aria-label="Facebook"
                 >
                   <div className="icon">
@@ -198,10 +183,10 @@ const Information = () => {
 
               <div className="social">
                 <a
-                  rel="noopener"
+                  rel="noopener noreferrer"
                   target="__blank"
-                  href="https://m.facebook.com/messages/t/100041579624188"
-                  aria-label="Facebook"
+                  href="https://www.messenger.com/t/100041579624188/?messaging_source%3Apages%message_shortlink"
+                  aria-label="Messenger"
                 >
                   <div className="icon">
                     <img
@@ -218,7 +203,7 @@ const Information = () => {
                 <a
                   rel="noopener noreferrer"
                   target="__blank"
-                  href="https://www.instagram.com/eman.zaki.1610/"
+                  href="https://instagram.com/eman.zaki.1610/?utm_medium=copy_link"
                 >
                   <div className="icon">
                     <img
@@ -231,7 +216,7 @@ const Information = () => {
                 </a>
               </div>
 
-              <div className="social">
+              {/* <div className="social">
                 <a
                   rel="noopener noreferrer"
                   target="__blank"
@@ -244,6 +229,19 @@ const Information = () => {
                     />
                   </div>
                   <p>Instagram Messenger</p>
+                  <div className=""></div>
+                </a>
+              </div> */}
+
+              <div className="social">
+                <a href="whatsapp://send?text=welcome&phone=+966556286650">
+                  <div className="icon">
+                    <img
+                      src="https://img.icons8.com/clouds/100/000000/whatsapp.png"
+                      alt="whatsapp"
+                    />
+                  </div>
+                  <p>WhatsApp</p>
                   <div className=""></div>
                 </a>
               </div>
