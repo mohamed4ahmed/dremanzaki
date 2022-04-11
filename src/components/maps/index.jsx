@@ -12,7 +12,7 @@ import { iconEman } from "./IconMarker";
 import logoImg from "../../assets/img/chan-dung-edit.png";
 const Map = () => {
   const position = [19.22589, 41.34155];
-  const zoom = 12;
+  const zoom = 9;
   return (
     <div className="map">
       <LeafletMap center={position} zoom={zoom}>
