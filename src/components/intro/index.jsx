@@ -14,7 +14,9 @@ const Greeting = () => {
         </div>
         <ul className="nav-wrapper-right__navigation-list">
           <li>
-            <a href="mailto:youyaahmed1731993@gmail.com">Contact</a>
+            <a rel="noopener noreferrer" target="__blank" href="+9660564452979">
+              Contact
+            </a>
           </li>
         </ul>
       </div>
@@ -30,8 +32,8 @@ const Greeting = () => {
             <div className="corner corner-tr"></div>
             <h3>What I Do?</h3>
             <p style={{ fontSize: "16px" }}>
-               Medical Radiology, interested in abdominal imaging,
-              ultrasound and computed tomography.
+              Medical Radiology, interested in abdominal imaging, ultrasound and
+              computed tomography.
             </p>
             <img className="avatar" src={Avatar} alt="Avatar" />
             <img className="avatar" src={Avatar1} alt="Avatar1" />

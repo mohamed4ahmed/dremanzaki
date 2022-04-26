@@ -108,37 +108,12 @@ const Information = () => {
                 <a
                   rel="noopener noreferrer"
                   target="__blank"
-                  href="tel:+201017043714"
+                  href="tel:+9660564452979"
                 >
                   <div className="icon">
-                    {/* <img
-                      src="https://img.icons8.com/color/48/000000/egypt-circular.png"
-                      alt="phoneegy"
-                    /> */}
-                    <img
-                      src="https://img.icons8.com/ios/50/000000/apple-phone.png"
-                      alt="phone-one"
-                    />
-                  </div>
-                  <p>Phone EGY</p>
-                  <div className=""></div>
-                </a>
-              </div>
-
-              <div className="social">
-                <a
-                  rel="noopener noreferrer"
-                  target="__blank"
-                  href="tel:+966556286650"
-                >
-                  <div className="icon">
-                    {/* <img
-                      src="https://img.icons8.com/color/48/000000/saudi-arabia.png"
-                      alt="phoneksa"
-                    /> */}
                     <img
                       src="https://img.icons8.com/clouds/100/000000/apple-phone.png"
-                      alt="phone-two"
+                      alt="phone"
                     />
                   </div>
                   <p>Phone</p>
@@ -167,7 +142,7 @@ const Information = () => {
                 <a
                   rel="noopener noreferrer"
                   target="__blank"
-                  href="https://www.facebook.com/profile.php?id=eman.zaki.1610/"
+                  href="https://www.facebook.com/eman.zaki.1610"
                   aria-label="Facebook"
                 >
                   <div className="icon">
@@ -203,7 +178,8 @@ const Information = () => {
                 <a
                   rel="noopener noreferrer"
                   target="__blank"
-                  href="https://instagram.com/eman.zaki.1610/?utm_medium=copy_link"
+                  href="https://www.instagram.com/eman.zaki.1610"
+                  aria-label="instagram"
                 >
                   <div className="icon">
                     <img
@@ -234,7 +210,7 @@ const Information = () => {
               </div> */}
 
               <div className="social">
-                <a href="whatsapp://send?text=welcome&phone=+966556286650">
+                <a href="whatsapp://send?text=welcome&phone=+9660564452979">
                   <div className="icon">
                     <img
                       src="https://img.icons8.com/clouds/100/000000/whatsapp.png"

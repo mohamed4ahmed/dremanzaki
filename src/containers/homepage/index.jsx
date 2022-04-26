@@ -2,19 +2,15 @@ import React, { useEffect, useState } from "react";
 import HomePageComponent from "../../components/homepage";
 import nextId from "react-id-generator";
 import "../information/styles.css";
-// import tsamemleaserImage from "../../assets/img/tsamemleaserImage.jpg";
-// import tawlat from "../../assets/img/tawlat.jpg";
-// import waghatalamonyomImage from "../../assets/img/waghatalamonyomImage.jpg";
-// import drabzenImage from "../../assets/img/drabzenImage.jpg";
-// import elyabeshospitalImage from "../../assets/img/elyabeshospitalImage.jpg";
-// import waghahadedImage from "../../assets/img/waghahadedImage.jpg";
-// import waghatsoaorImage from "../../assets/img/waghatsoaorImage.jpg";
-// import stanlssteelImage from "../../assets/img/stanlssteelImage.jpg";
-// import hadedasleazerImage from "../../assets/img/hadedasleazerImage.jpg";
-// import quizAppImage from "../../assets/img/quizAppImage.jpg";
-// import amalfrabkshenImage from "../../assets/img/amalfrabkshenImage.jpg";
-// import bartechanImage from "../../assets/img/bartechanImage.jpg";
-// import glassroomImage from "../../assets/img/glassroomImage.jpg";
+import oneImg from "../../assets/img/oneImg.png";
+import twoImg from "../../assets/img/twoImg.png";
+import threeImg from "../../assets/img/threeImg.png";
+import fourImg from "../../assets/img/fourImg.png";
+import fiveImg from "../../assets/img/fiveImg.png";
+import sixImg from "../../assets/img/sixImg.png";
+import sevenImg from "../../assets/img/sevenImg.png";
+import eightImg from "../../assets/img/eightImg.png";
+
 import Spinner from "../../components/Spinner";
 import { FaArrowCircleUp } from "react-icons/fa";
 
@@ -140,20 +136,20 @@ const getSocialsIcon = () => {
       {
         id: nextId(),
         alt: "Facebook",
-        link: "https://www.facebook.com/profile.php?id=eman.zaki.1610/",
+        link: "https://www.facebook.com/eman.zaki.1610",
         src: "https://img.icons8.com/dusk/64/000000/facebook-new--v2.png",
       },
       {
         id: nextId(),
         alt: "Instagram",
-        link: "https://instagram.com/eman.zaki.1610/?utm_medium=copy_link",
+        link: "https://www.instagram.com/eman.zaki.1610",
         src: "https://img.icons8.com/clouds/100/000000/instagram-new--v3.png",
       },
 
       {
         id: nextId(),
         alt: "Whatsapp",
-        link: "whatsapp://send?text=welcome&phone=+966556286650",
+        link: "whatsapp://send?text=welcome&phone=+9660564452979",
         src: "https://img.icons8.com/clouds/100/000000/whatsapp.png",
       },
     ],
@@ -161,115 +157,82 @@ const getSocialsIcon = () => {
   return json.socials;
 };
 
-// const getPosts = () => {
-//   let json = {
-//     posts: [
-//       {
-//         id: nextId(),
-//         title: "طاولات",
-//         description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
+const getPosts = () => {
+  let json = {
+    posts: [
+      {
+        id: nextId(),
+        // title: "صميمات قص ليزر",
+        // description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
 
-//         imgSrc: tawlat,
-//         imgAlt: "tawlat-logo",
-//         link: "https://www.instagram.com/p/CFovvpLAvYm/",
-//       },
-//       {
-//         id: nextId(),
-//         title: "وجهات المنيوم مع زجاج",
-//         description: "تركيب وجهات المنيوم مع زجاج بجنوب الرياض",
-//         imgSrc: waghatalamonyomImage,
-//         imgAlt: "waghatalamonyom-logo",
-//         link: "https://www.instagram.com/p/CFwngX2gFQ2/",
-//       },
-//       {
-//         id: nextId(),
-//         title: "دربزينات",
-//         description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
-//         imgSrc: drabzenImage,
-//         imgAlt: "drabzen-logo",
-//         link: "https://www.instagram.com/p/CKOz1M0g2ae/",
-//       },
-//       {
-//         id: nextId(),
-//         title: "مستشفي اليابس بطريق مكه",
-//         description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
+        imgSrc: oneImg,
+        imgAlt: "tsamemleaser-logo",
+        // link: "https://www.instagram.com/p/CNO9iRnr8Ry/",
+      },
+      {
+        id: nextId(),
+        // title: "طاولات",
+        // description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
 
-//         imgSrc: elyabeshospitalImage,
-//         imgAlt: "elyabeshospital-logo",
-//         link: "https://www.instagram.com/p/CJ6hNOjrpnh/",
-//       },
-//       {
-//         id: nextId(),
-//         title: "وجهه حديد قص ليزر ارتفاع ٨ متر",
-//         description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
+        imgSrc: twoImg,
+        imgAlt: "twoImg-logo",
+        // link: "https://www.instagram.com/p/CFovvpLAvYm/",
+      },
+      {
+        id: nextId(),
+        // title: "وجهات المنيوم مع زجاج",
+        // description: "تركيب وجهات المنيوم مع زجاج بجنوب الرياض",
+        imgSrc: threeImg,
+        imgAlt: "waghatalamonyom-logo",
+        // link: "https://www.instagram.com/p/CFwngX2gFQ2/",
+      },
+      {
+        id: nextId(),
+        // title: "دربزينات",
+        // description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
+        imgSrc: fourImg,
+        imgAlt: "drabzen-logo",
+        // link: "https://www.instagram.com/p/CKOz1M0g2ae/",
+      },
+      {
+        id: nextId(),
+        // title: "مستشفي اليابس بطريق مكه",
+        // description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
 
-//         imgSrc: waghahadedImage,
-//         imgAlt: "waghahaded-logo",
-//         link: "https://www.instagram.com/p/CQMdCirh-Fi/",
-//       },
-//       {
-//         id: nextId(),
-//         title: "وجهات كلادنج بمعرض الصقور",
-//         description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
+        imgSrc: fiveImg,
+        imgAlt: "elyabeshospital-logo",
+        // link: "https://www.instagram.com/p/CJ6hNOjrpnh/",
+      },
+      {
+        id: nextId(),
+        // title: "وجهه حديد قص ليزر ارتفاع ٨ متر",
+        // description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
 
-//         imgSrc: waghatsoaorImage,
-//         imgAlt: "waghatsoaor-logo",
-//         link: "https://www.instagram.com/p/CJ6iNpvLmFc/",
-//       },
-//       {
-//         id: nextId(),
-//         title: " استانلس ستيل",
-//         description: "أعمال فبريكشن شغل استانلس ستيل",
-//         imgSrc: stanlssteelImage,
-//         imgAlt: "stanlssteel-logo",
-//         link: "https://www.instagram.com/p/CMPYC87gMha/",
-//       },
-//       {
-//         id: nextId(),
-//         title: "حديد قص ليزر",
-//         description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
+        imgSrc: sixImg,
+        imgAlt: "waghahaded-logo",
+        // link: "https://www.instagram.com/p/CQMdCirh-Fi/",
+      },
+      {
+        id: nextId(),
+        // title: "وجهات كلادنج بمعرض الصقور",
+        // description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
 
-//         imgSrc: hadedasleazerImage,
-//         imgAlt: "hadedasleazer-logo",
-//         link: "https://www.instagram.com/p/CNO9cAHL4-D/",
-//       },
-//       {
-//         id: nextId(),
-//         title: "صميمات قص ليزر",
-//         description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
-
-//         imgSrc: tsamemleaserImage,
-//         imgAlt: "tsamemleaser-logo",
-//         link: "https://www.instagram.com/p/CNO9iRnr8Ry/",
-//       },
-//       {
-//         id: nextId(),
-//         title: "أعمال فبريكشن",
-//         description: "أفضل سعر لجوده عالميه لعشاق التميز 🌸",
-//         imgSrc: amalfrabkshenImage,
-//         imgAlt: "amalfrabkshen-logo",
-//         link: "https://www.instagram.com/p/CMPslUUATKr/",
-//       },
-//       {
-//         id: nextId(),
-//         title: "بارتشن او حمايات شبابيك",
-//         description: "شكال مميزه تصلح لبارتشن او حمايات شبابيك 💝",
-//         imgSrc: bartechanImage,
-//         imgAlt: "bartechan-logo",
-//         link: "https://www.instagram.com/p/CKOz9wCgBWD/",
-//       },
-//       {
-//         id: nextId(),
-//         title: "غرفه بالحديد والزجاج",
-//         description: "غرفه بالحديد والزجاج بشمال الرياض",
-//         imgSrc: glassroomImage,
-//         imgAlt: "glassroom-logo",
-//         link: "https://www.instagram.com/p/CNMpcx-HULD/",
-//       },
-//     ],
-//   };
-//   return json.posts;
-// };
+        imgSrc: sevenImg,
+        imgAlt: "waghatsoaor-logo",
+        // link: "https://www.instagram.com/p/CJ6iNpvLmFc/",
+      },
+      {
+        id: nextId(),
+        // title: " استانلس ستيل",
+        // description: "أعمال فبريكشن شغل استانلس ستيل",
+        imgSrc: eightImg,
+        imgAlt: "stanlssteel-logo",
+        // link: "https://www.instagram.com/p/CMPYC87gMha/",
+      },
+    ],
+  };
+  return json.posts;
+};
 
 const HomePage = () => {
   const [visible, setVisible] = useState(false);
@@ -278,7 +241,7 @@ const HomePage = () => {
   const socials = getSocialsIcon();
   // const languages = getLanguagesIcons();
   // const tools = getToolsIcon();
-  // const posts = getPosts();
+  const posts = getPosts();
 
   const toggleVisible = () => {
     const scrolled = document.documentElement.scrollTop;
@@ -321,7 +284,7 @@ const HomePage = () => {
             socials={socials}
             // languages={languages}
             // tools={tools}
-            // posts={posts}
+            posts={posts}
           />
         </>
       )}

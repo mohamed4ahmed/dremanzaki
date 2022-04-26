@@ -3,11 +3,11 @@ import "./style.css";
 import Intro from "../intro";
 import About from "../about";
 import Maps from "../maps";
-// import Posts from "../posts";
+import Posts from "../posts";
 // import Contact from "../contact";
 import Greeting from "../greeting";
 
-const Homepage = ({ socials }) => {
+const Homepage = ({ socials, posts }) => {
   return (
     <React.Fragment>
       <section className="s1">
@@ -23,19 +23,19 @@ const Homepage = ({ socials }) => {
         </div>
       </section>
 
-      {/* <section className="s1">
+      <section className="s1">
         <div className="main-container">
           <Posts posts={posts} />
         </div>
-      </section> */}
+      </section>
 
-      <section className="s1">
+      <section className="s2">
         <div className="main-container">
           <Maps />
         </div>
       </section>
 
-      <section className="s2">
+      <section className="s1">
         <div className="main-container">
           <Greeting />
         </div>
