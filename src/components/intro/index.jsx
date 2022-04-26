@@ -14,8 +14,12 @@ const Greeting = () => {
         </div>
         <ul className="nav-wrapper-right__navigation-list">
           <li>
-            <a rel="noopener noreferrer" target="__blank" href="+9660564452979">
-              Contact
+            <a
+              rel="noopener noreferrer"
+              target="__blank"
+              href="tel:+9660564452979"
+            >
+              Call
             </a>
           </li>
         </ul>
