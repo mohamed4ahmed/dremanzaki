@@ -52,7 +52,7 @@ const Posts = ({ posts }) => {
   };
   return (
     <React.Fragment>
-      <h3 style={{ textAlign: "center" }}>Some Of Certificates {"&"} Experience</h3>
+      <h3 style={{ textAlign: "center" }}>Certificates {"&"} Experience</h3>
       <div className="posts-wrapper">
         <Slider {...settings}>
           {posts.map((post) => {
